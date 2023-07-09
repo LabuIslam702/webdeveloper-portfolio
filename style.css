@@ -76,6 +76,10 @@ nav li{
     max-width: 500px;
 }
 /* this is about section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about{
     padding: 130px;
     border-radius: 10px;
@@ -92,4 +96,20 @@ nav li{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+/* this is about info */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    /* margin: 4px; */
+    text-align: center;
+}
+#what{
+    padding: 30px 150px;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
 }
