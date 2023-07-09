@@ -1,6 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+/* this is vab style */
 nav{
     display: flex;
     justify-content: space-between;
@@ -10,6 +11,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -21,6 +23,7 @@ nav > ul{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    padding: 40px;
 }
 
 nav a{
@@ -33,9 +36,60 @@ nav a{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+    padding: 5px;
 
 }
 nav li{
     list-style: none;
     margin-right: 30px;
+}
+/* this is header related style */
+.header{
+    background-color: #fff8f3;
+    background-image: url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+.banner-title{
+    font-size:85px ;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+/* this is about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
