@@ -172,6 +172,9 @@ footer{
 .footer-colum{
     width: 50%;
 }
+.social-links a{
+    margin-right: 25px;
+}
 .contact input[type="text"], .contact input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
@@ -182,8 +185,8 @@ footer{
     border: 0;
     width: 100%;
 }
-#low{
+/* #low{
     background-color: #FD6E0A;
     color: white;
-}
+} */
 
